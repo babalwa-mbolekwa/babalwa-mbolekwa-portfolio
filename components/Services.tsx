@@ -38,7 +38,7 @@ const Services = () => {
       >
         I build modern, scalable web applications with a strong focus on
         frontend development, performance, and user experience. I specialise in
-        React, creating reusable user-facing components, and translating Figma
+        React, creating reusable components, and translating Figma
         designs into pixel-accurate, production-ready features.
       </motion.p>
       <motion.div
@@ -49,7 +49,6 @@ const Services = () => {
       >
         {serviceData.map(({ icon, title, description }, index) => (
           <motion.div
-          whileHover={{scale: 1.05}}
             key={index}
             className="border border-gray-400 rounded-lg px-8 py-12 hover:shadow hover:shadow-black hover:bg-[#fcf4ff] hover:-translate-y-1 duration-500 dark:hover:bg-dark-hover dark:hover:shadow-white"
           >

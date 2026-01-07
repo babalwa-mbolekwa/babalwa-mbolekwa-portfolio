@@ -62,17 +62,13 @@ const About = () => {
             evolve my skills to deliver meaningful, high-impact digital
             solutions.
           </p>
-          <motion.ul
-            initial={{ opacity: 0 }}
-            whileInView={{ opacity: 1 }}
-            transition={{ duration: 0.8, delay: 0.4 }}
+          <ul
             className="grid grid-cols-1 md:grid-cols-2 gap-6 max-w-2xl"
           >
             {infoList.map(({ icon, title, description }, index) => (
-              <motion.li
+              <li
                 key={index}
-                whileHover={{ scale: 1.05 }}
-                className="border-[0.5px] border-gray-400 rounded-xl p-6 hover:bg-[#fcf4ff] hover:-translate-y-1 duration-500 hover:shadow hover:shadow-black dark:border-white dark:hover:shadow-white dark:hover:bg-dark-hover/50"
+                className="border-[0.5px] border-gray-400 rounded-xl p-6 hover:bg-[#fcf4ff] duration-500 hover:shadow hover:shadow-black dark:border-white dark:hover:shadow-white dark:hover:bg-dark-hover/50"
               >
                 <Image
                   src={icon}
@@ -86,9 +82,9 @@ const About = () => {
                   {description}
                 </p>
                 {title == "Education & Certifications" && <p className="text-gray-600 text-sm dark:text-white/80">Currently completing AWS Cloud Practitioner Certification</p>}
-              </motion.li>
+              </li>
             ))}
-          </motion.ul>
+          </ul>
         </motion.div>
       </motion.div>
       <motion.div
