@@ -55,8 +55,7 @@ const About = () => {
           className="flex-1"
         >
           <p className="mb-10 max-w-2xl font-ovo text-center lg:text-left">
-            I&apos;m a Web Developer with over five years of professional
-            experience. I&apos;ve thus far contributed to the success and growth
+            I&apos;ve thus far contributed to the success and growth
             of organizations across the Education, Finance, and Retail sectors,
             by building intuitive, user-focused interfaces, and I continue to
             evolve my skills to deliver meaningful, high-impact digital
