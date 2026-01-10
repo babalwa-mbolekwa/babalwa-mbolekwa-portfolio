@@ -49,7 +49,7 @@ const Navbar = () => {
         </a>
         <ul
           className={`hidden md:flex items-center gap-6 lg:gap-8 rounded-full px-12 py-3 ${
-            isScroll ? "" : "bg-white shadow-sm bg-opacity-50 dark:border dark:border-white/50 dark:bg-transparent"
+            isScroll ? "" : "bg-white shadow-lg bg-opacity-50 dark:border dark:border-white/50 dark:bg-transparent"
           }`}
         >
           <li>
@@ -78,7 +78,7 @@ const Navbar = () => {
             </a>
           </li>
         </ul>
-        <div className="flex items-center gap-4">
+        <div className="flex items-center gap-4 md:hidden">
           <button className="block md:hidden ml-3" onClick={openMenu}>
             <Image src={assets.menu_black} alt="mode icon" className="w-6" />
           </button>
