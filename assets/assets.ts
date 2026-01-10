@@ -46,6 +46,7 @@ import github_icon from "./github.png";
 import shopify_icon from "./shopify.png";
 import jira_icon from "./jira.png";
 import confluence_icon from "./confluence.png";
+import story_book_icon from "./storybook.png"
 
 import work1 from "./work01.jpg";
 import work2 from "./work02.jpg";
@@ -104,6 +105,7 @@ export const assets = {
     shopify_icon,
     jira_icon,
     confluence_icon,
+    story_book_icon,
     work1,
     work2,
     work3,
@@ -214,6 +216,10 @@ export const toolsData = [
     {
         name: "Material UI",
         icon: assets.mui_icon
+    },
+    {
+        name: "Storybook",
+        icon: assets.story_book_icon
     },
     {
         name: "NextJS",
