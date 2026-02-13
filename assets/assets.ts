@@ -46,7 +46,8 @@ import github_icon from "./github.png";
 import shopify_icon from "./shopify.png";
 import jira_icon from "./jira.png";
 import confluence_icon from "./confluence.png";
-import story_book_icon from "./storybook.png"
+import story_book_icon from "./storybook.png";
+import wordpress_icon from "./wordpress.png";
 
 import work1 from "./work01.jpg";
 import work2 from "./work02.jpg";
@@ -112,7 +113,8 @@ export const assets = {
     work4,
     work5,
     work6,
-    work7
+    work7,
+    wordpress_icon
 };
 
 export const workData = [
@@ -228,6 +230,10 @@ export const toolsData = [
     {
         name: "NodeJS",
         icon: assets.nodejs_icon
+    },
+    {
+        name: "Wordpress",
+        icon: assets.wordpress_icon
     },
     {
         name: "Python",
