@@ -80,7 +80,7 @@ const About = () => {
                 <p className="text-gray-600 text-sm dark:text-white/80">
                   {description}
                 </p>
-                {title == "Education & Certifications" && <p className="text-gray-600 text-sm dark:text-white/80">Currently completing AWS Cloud Practitioner Certification</p>}
+                {/* {title == "Education & Certifications" && <p className="text-gray-600 text-sm dark:text-white/80">Currently enha</p>} */}
               </li>
             ))}
           </ul>
