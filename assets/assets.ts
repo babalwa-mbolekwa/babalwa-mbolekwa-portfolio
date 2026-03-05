@@ -56,6 +56,7 @@ import work4 from "./work04.png";
 import work5 from "./work05.png";
 import work6 from "./work06.png";
 import work7 from "./work07.png";
+import { StaticImageData } from 'next/image';
 
 export const assets = {
     user_image,
@@ -176,9 +177,16 @@ export const serviceData = [
     { icon: assets.ui_icon, title: 'Open-Source & Community Engagement', description: 'I actively contribute to open-source platforms and participate in tech events—sharing knowledge, mentoring developers, and fostering collaborative learning communities around me.' },
 ]
 
-export const infoList = [
+type InfoItem = {
+  icon: StaticImageData; 
+  iconDark: StaticImageData; 
+  title: string;
+  description: string | string[];  
+}
+
+export const infoList: InfoItem[] = [
     { icon: assets.code_icon, iconDark: assets.code_icon_dark, title: 'Experience', description: 'Responsive web design, Test-driven development, Cross-functional team collaboration, Mentoring, Open source contribution' },
-    { icon: assets.edu_icon, iconDark: assets.edu_icon_dark, title: 'Education & Certifications', description: 'National Diploma in Computer Systems Engineering.' },
+    { icon: assets.edu_icon, iconDark: assets.edu_icon_dark, title: 'Education & Certifications', description: ['National Diploma in Computer Systems Engineering.', 'Current: IBM Full Stack Software Developer Certification.'] },
     // { icon: assets.project_icon, iconDark: assets.project_icon_dark, title: 'Projects', description: 'Built more than 5 projects' }
 ];
 

@@ -34,7 +34,7 @@ const Header = () => {
         transition={{ duration: 0.8, delay: 0.5 }}
         className="text-3xl sm:text-6xl lg:text-[66px] font-ovo"
       >
-        Web Developer based in Cape Town, South Africa.
+        Frontend Developer based in Cape Town, South Africa.
       </motion.h1>
       <motion.p
         initial={{ opacity: 0 }}
@@ -42,7 +42,7 @@ const Header = () => {
         transition={{ duration: 0.6, delay: 0.7 }}
         className="max-w-2xl mx-auto font-ovo"
       >
-        I build scalable, user-centric web applications with clean code, modern tools, and a focus on collaboration and impact.
+        I build performant, scalable, and user-centric web applications with clean code and modern tools, focusing on collaboration and impact.
       </motion.p>
       <div className="mt-4">
         <motion.a

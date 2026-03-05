@@ -1,4 +1,4 @@
-"use client"
+"use client";
 
 import { assets, infoList, toolsData } from "@/assets/assets";
 import Image from "next/image";
@@ -55,31 +55,47 @@ const About = () => {
           className="flex-1"
         >
           <p className="mb-10 max-w-2xl font-ovo text-center lg:text-left">
-            I&apos;ve thus far contributed to the success and growth
-            of organizations across the Education, Finance, and Retail sectors,
-            by building intuitive, user-focused interfaces, and I continue to
+            I&apos;ve thus far contributed to the success and growth of
+            organizations across the Education, Finance, and Retail sectors, by
+            building intuitive, user-focused interfaces, and I continue to
             evolve my skills to deliver meaningful, high-impact digital
             solutions.
           </p>
-          <ul
-            className="grid grid-cols-1 md:grid-cols-2 gap-6 max-w-2xl"
-          >
+          <ul className="grid grid-cols-1 md:grid-cols-2 gap-6 max-w-2xl">
             {infoList.map(({ icon, title, description }, index) => (
               <li
                 key={index}
                 className="border-[0.5px] border-gray-400 rounded-xl p-6 hover:bg-[#fcf4ff] duration-500 hover:shadow hover:shadow-black dark:border-white dark:hover:shadow-white dark:hover:bg-dark-hover/50"
               >
-                <Image
-                  src={icon}
-                  alt={title}
-                  className="w-7 mt-3"
-                />
+                <Image src={icon} alt={title} className="w-7 mt-3" />
                 <h3 className="my-4 font-semibold text-gray-700 dark:text-white">
                   {title}
                 </h3>
-                <p className="text-gray-600 text-sm dark:text-white/80">
-                  {description}
-                </p>
+                {title === "Education & Certifications" ? (
+                  <ul>
+                    {Array.isArray(description) ? (
+                      description.map((itm, idx) => (
+                        <li
+                          key={idx}
+                          className="text-gray-600 text-sm dark:text-white/80"
+                        >
+                          {itm}
+                        </li>
+                      ))
+                    ) : (
+                      // This case shouldn't happen based on your title condition,
+                      // but TypeScript needs it for type safety
+                      <li className="text-gray-600 text-sm dark:text-white/80">
+                        {description}
+                      </li>
+                    )}
+                  </ul>
+                ) : (
+                  <p className="text-gray-600 text-sm dark:text-white/80">
+                    {description}
+                  </p>
+                )}
+
                 {/* {title == "Education & Certifications" && <p className="text-gray-600 text-sm dark:text-white/80">Currently enha</p>} */}
               </li>
             ))}
