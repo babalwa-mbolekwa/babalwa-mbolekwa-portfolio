@@ -2,7 +2,6 @@
 
 import { assets, infoList, toolsData } from "@/assets/assets";
 import Image from "next/image";
-import React from "react";
 import { motion } from "motion/react";
 
 const About = () => {
@@ -55,11 +54,7 @@ const About = () => {
           className="flex-1"
         >
           <p className="mb-10 max-w-2xl font-ovo text-center lg:text-left">
-            I&apos;ve thus far contributed to the success and growth of
-            organizations across the Education, Finance, and Retail sectors, by
-            building intuitive, user-focused interfaces, and I continue to
-            evolve my skills to deliver meaningful, high-impact digital
-            solutions.
+            Over 4 years, I&apos;ve helped organisations across FinTech, EdTech, and Retail build better digital products - reducing support ticket volumes by 50%, improving payment conversion by 20%, and cutting tool fragmentation by 70%. I care about writing clean, well-tested code that solves real problems, and I&apos;m always expanding my skills - currently completing the IBM Full Stack Software Developer certification.
           </p>
           <ul className="grid grid-cols-1 md:grid-cols-2 gap-6 max-w-2xl">
             {infoList.map(({ icon, title, description }, index) => (

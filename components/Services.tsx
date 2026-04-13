@@ -36,10 +36,7 @@ const Services = () => {
         transition={{ delay: 0.7, duration: 0.5 }}
         className="text-center max-w-2xl mx-auto mt-5 mb-12 font-ovo"
       >
-        I build modern, scalable web applications with a strong focus on
-        frontend development, performance, and user experience. I specialise in
-        React, creating reusable components, and translating Figma
-        designs into pixel-accurate, production-ready features.
+        I build modern, scalable web applications across the full stack - from component-driven React frontends to Node.js backends and cloud deployments. I take features from Figma designs all the way to production, with a strong focus on performance, accessibility, and measurable user impact.
       </motion.p>
       <motion.div
         initial={{ opacity: 0 }}

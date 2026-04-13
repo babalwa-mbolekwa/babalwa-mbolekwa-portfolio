@@ -85,7 +85,6 @@ const MoreWork = () => {
               <p
                 className="text-gray-700 text-sm"
               >
-                <span className="font-semibold">{project.techStack}</span>
                 {project.description}
               </p>
             </div>

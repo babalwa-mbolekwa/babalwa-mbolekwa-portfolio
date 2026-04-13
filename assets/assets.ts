@@ -121,50 +121,43 @@ export const assets = {
 export const workData = [
     {
         title: 'My Portfolio Website',
-        techStack: 'Next.js + Tailwind CSS • ',
-        description: 'Performance-optimized personal portfolio with responsive design',
+        description: 'Performance-optimized personal portfolio with responsive design using Next.js and Tailwind CSS.',
         bgImage: assets.work1.src,
         workUrl: "https://babalwambolekwa.netlify.app/"
     },
     {
         title: 'Restaurant Platform',
-        techStack: 'React • ',
-        description: 'Interactive dining website with menu visualization and entertainment features',
+        description: 'Interactive dining website with menu visualization and entertainment features using React.',
         bgImage: assets.work2.src,
         workUrl: "https://babalwa-mbolekwa.github.io/grooveavenue/"
     },
     {
         title: 'YouTube clone',
-        techStack: 'React + Material-UI + YouTube API • ',
-        description: 'Feature-rich video platform replica with search functionality',
+        description: 'Demonstrates API integration, search, and responsive video UI using React, Material UI, and the YouTube Data API.',
         bgImage: assets.work3.src,
         workUrl: "https://babalwayoutubeclone.netlify.app/"
     },
     {
         title: 'Memory Game',
-        techStack: 'JavaScript + HTML5 + CSS3 • ',
-        description: 'Engaging card-matching game with intuitive UI and moves count',
+        description: 'Engaging card-matching game with intuitive UI and moves count using vanilla JavaScript, HTML5, and CSS3.',
         bgImage: assets.work4.src,
         workUrl: "https://babalwa-mbolekwa.github.io/memory-game/"
     },
     {
         title: 'Tic Tac Toe Game',
-        techStack: 'JavaScript + HTML5 + CSS3 • ',
-        description: 'Engaging two-player game for marking spaces with Xs & Os',
+        description: 'Engaging two-player game for marking spaces with Xs & Os using vanilla JavaScript, HTML5, and CSS3.',
         bgImage: assets.work5.src,
         workUrl: "https://babalwa-mbolekwa.github.io/tic-tac-toe/"
     },
     {
         title: 'Plinko Game',
-        techStack: 'PIXI.js + Tween.js • ',
-        description: 'Responsive and interactive game with animated ball movement',
+        description: 'Responsive and interactive game with animated ball movement using PIXI.js for rendering and Tween.js for smooth animations.',
         bgImage: assets.work6.src,
         workUrl: "https://plinko-game-v2.netlify.app/"
     },
     {
         title: 'Music player',
-        techStack: 'HTML + CSS + JavaScript • ',
-        description: 'Responsive music player with play and pause controls',
+        description: 'Responsive music player with play and pause controls using vanilla JavaScript, HTML, and CSS.',
         bgImage: assets.work7.src,
         workUrl: "https://babalwa-mbolekwa.github.io/music-player/"
     },
@@ -185,7 +178,7 @@ type InfoItem = {
 }
 
 export const infoList: InfoItem[] = [
-    { icon: assets.code_icon, iconDark: assets.code_icon_dark, title: 'Experience', description: 'Responsive web design, Test-driven development, Cross-functional team collaboration, Mentoring, Open source contribution' },
+    { icon: assets.code_icon, iconDark: assets.code_icon_dark, title: 'Experience', description: 'Responsive web design, CI/CD pipelines, Docker & GCP deployments, RESTful API development, Test-driven development, Code review & mentoring' },
     { icon: assets.edu_icon, iconDark: assets.edu_icon_dark, title: 'Education & Certifications', description: ['National Diploma in Computer Systems Engineering.', 'Current: IBM Full Stack Software Developer Certification.'] },
     // { icon: assets.project_icon, iconDark: assets.project_icon_dark, title: 'Projects', description: 'Built more than 5 projects' }
 ];
