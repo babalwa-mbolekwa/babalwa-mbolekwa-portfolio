@@ -53,27 +53,27 @@ const Navbar = () => {
           }`}
         >
           <li>
-            <a href="#top" className="font-ovo">
+            <a href="#top" className="font-ovo hover:font-semibold">
               Home
             </a>
           </li>
           <li>
-            <a href="#about" className="font-ovo">
+            <a href="#about" className="font-ovo hover:font-semibold">
               About me
             </a>
           </li>
           <li>
-            <a href="#services" className="font-ovo">
+            <a href="#services" className="font-ovo hover:font-semibold">
               Services
             </a>
           </li>
           <li>
-            <a href="#work" className="font-ovo">
+            <a href="#work" className="font-ovo hover:font-semibold">
               My work
             </a>
           </li>
           <li>
-            <a href="#contact" className="font-ovo">
+            <a href="#contact" className="font-ovo hover:font-semibold">
               Contact me
             </a>
           </li>
