@@ -54,7 +54,15 @@ const About = () => {
           className="flex-1"
         >
           <p className="mb-10 max-w-2xl font-ovo text-center lg:text-left">
-            Over 4 years, I&apos;ve helped organisations across FinTech, EdTech, and Retail build better digital products - reducing support ticket volumes by 50%, improving payment conversion by 20%, and cutting tool fragmentation by 70%. I care about writing clean, well-tested code that solves real problems, and I&apos;m always expanding my skills - currently completing the IBM Full Stack Software Developer certification.
+            I&apos;m a Software Developer with 4+ years of experience building
+            scalable web applications across FinTech, EdTech, and SaaS
+            environments. I focus on solving real user and business problems —
+            whether that&apos;s reducing support load, improving payment flows,
+            or streamlining internal tools. I&apos;ve worked across the full
+            stack, from building responsive frontend interfaces to designing
+            REST APIs and deploying containerised applications on GCP. I value
+            clean, maintainable code, strong collaboration, and taking ownership
+            of features from idea to production.
           </p>
           <ul className="grid grid-cols-1 md:grid-cols-2 gap-6 max-w-2xl">
             {infoList.map(({ icon, title, description }, index) => (

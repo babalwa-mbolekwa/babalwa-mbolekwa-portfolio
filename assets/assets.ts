@@ -168,6 +168,7 @@ export const serviceData = [
     { icon: assets.web_icon, title: 'End-to-End Web Application Development', description: 'I build responsive, accessible web applications from concept to deployment — combining modern UI/UX design implementation with full-stack development for seamless user experiences.' },
     { icon: assets.graphics_icon, title: 'Cross-Functional Collaboration & Technical Leadership', description: 'I thrive in cross-functional teams, bridging design and development through Figma-to-code workflows, while offering mentoring, code reviews, and agile project leadership to drive team success.' },
     { icon: assets.ui_icon, title: 'Open-Source & Community Engagement', description: 'I actively contribute to open-source platforms and participate in tech events—sharing knowledge, mentoring developers, and fostering collaborative learning communities around me.' },
+    { icon: assets.mobile_icon, title: 'WordPress & CMS Development', description: 'I build and customise WordPress websites for clients using Elementor — delivering responsive, brand-aligned sites with fast turnaround and full handover support.' },
 ]
 
 type InfoItem = {
