@@ -179,7 +179,7 @@ type InfoItem = {
 }
 
 export const infoList: InfoItem[] = [
-    { icon: assets.code_icon, iconDark: assets.code_icon_dark, title: 'Experience', description: 'Responsive web design, CI/CD pipelines, Docker & GCP deployments, RESTful API development, Test-driven development, Code review & mentoring' },
+    { icon: assets.code_icon, iconDark: assets.code_icon_dark, title: 'Experience', description: 'Responsive web design, CI/CD pipelines, Containerisation, RESTful API development, Test-driven development, Cross-functional team collaboration, Code review & mentoring' },
     { icon: assets.edu_icon, iconDark: assets.edu_icon_dark, title: 'Education & Certifications', description: ['National Diploma in Computer Systems Engineering.', 'Current: IBM Full Stack Software Developer Certification.'] },
     // { icon: assets.project_icon, iconDark: assets.project_icon_dark, title: 'Projects', description: 'Built more than 5 projects' }
 ];
