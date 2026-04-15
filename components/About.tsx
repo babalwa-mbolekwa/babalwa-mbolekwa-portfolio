@@ -64,7 +64,7 @@ const About = () => {
             clean, maintainable code, strong collaboration, and taking ownership
             of features from idea to production.
           </p>
-          <ul className="grid grid-cols-1 md:grid-cols-2 gap-6 max-w-2xl">
+          <ul className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-6 max-w-2xl">
             {infoList.map(({ icon, title, description }, index) => (
               <li
                 key={index}
