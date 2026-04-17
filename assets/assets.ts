@@ -127,7 +127,7 @@ export const workData = [
     },
     {
         title: 'Babs Bot',
-        description: 'AI-powered chatbot built with vanilla JavaScript, featuring real-time message rendering and OpenAI API integration.',
+        description: 'AI-powered chatbot built with vanilla JavaScript and Express.js, featuring real-time message rendering and OpenAI API integration.',
         bgImage: assets.work7.src,
         workUrl: "https://babs-bot.vercel.app/"
     },
