@@ -120,7 +120,7 @@ export const assets = {
 
 export const workData = [
     {
-        title: 'My Portfolio Website',
+        title: 'My Portfolio',
         description: 'Professional Developer portfolio built with Next.js and Tailwind CSS, showcasing web development projects and technical skills.',
         bgImage: assets.work1.src,
         workUrl: "https://babalwambolekwa.netlify.app/"
