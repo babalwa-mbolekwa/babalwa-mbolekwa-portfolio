@@ -8,7 +8,7 @@ const About = () => {
   return (
     <motion.div
       id="about"
-      className="w-full px-[12%] pb-10 scroll-mt-20"
+      className="w-full px-[12%] pb-10 scroll-mt-20 lg:pt-14 lg:px-[6%]"
       initial={{ opacity: 0 }}
       whileInView={{ opacity: 1 }}
       transition={{ duration: 1 }}
@@ -64,7 +64,7 @@ const About = () => {
             clean, maintainable code, strong collaboration, and taking ownership
             of features from idea to production.
           </p>
-          <ul className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-6 max-w-2xl">
+          <ul className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-6">
             {infoList.map(({ icon, title, description }, index) => (
               <li
                 key={index}

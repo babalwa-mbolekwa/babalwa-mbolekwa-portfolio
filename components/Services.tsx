@@ -12,7 +12,7 @@ const Services = () => {
       whileInView={{ opacity: 1 }}
       transition={{ duration: 1 }}
       id="services"
-      className="w-full px-[12%] py-10 scroll-mt-20"
+      className="w-full px-[12%] py-10 scroll-mt-20 lg:px-[6%]"
     >
       <motion.h4
         initial={{ y: -20, opacity: 0 }}

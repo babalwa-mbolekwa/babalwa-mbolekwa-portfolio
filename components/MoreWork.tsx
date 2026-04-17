@@ -12,7 +12,7 @@ const MoreWork = () => {
       initial={{ opacity: 0 }}
       whileInView={{ opacity: 1 }}
       transition={{ duration: 1 }}
-      className="w-full px-[12%] py-10 scroll-mt-20 pt-40 md:pt-44 xl:pt-28"
+      className="w-full px-[12%] py-10 scroll-mt-20 pt-40 md:pt-44 xl:pt-28 lg:px-[6%]"
     >
       <motion.h4
         initial={{ opacity: 0, y: -20 }}

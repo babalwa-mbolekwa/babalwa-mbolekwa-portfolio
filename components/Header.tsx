@@ -7,7 +7,7 @@ import { assets } from "@/assets/assets";
 
 const Header = () => {
   return (
-    <div className="w-11/12 max-w-3xl text-center mx-auto h-screen flex flex-col items-center justify-center gap-4">
+    <div className="w-11/12 max-w-3xl text-center mx-auto h-screen md:h-[75vh] lg:h-auto lg:pt-36 xl:h-screen xl:pt-10 flex flex-col items-center justify-center gap-4">
       <motion.div
         initial={{ scale: 0 }}
         whileInView={{ scale: 1 }}
