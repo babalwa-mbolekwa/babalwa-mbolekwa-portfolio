@@ -121,7 +121,7 @@ export const assets = {
 export const workData = [
     {
         title: 'My Portfolio Website',
-        description: 'Performance-optimized personal portfolio with responsive design using Next.js and Tailwind CSS.',
+        description: 'Professional Developer portfolio built with Next.js and Tailwind CSS, showcasing web development projects and technical skills.',
         bgImage: assets.work1.src,
         workUrl: "https://babalwambolekwa.netlify.app/"
     },
@@ -133,37 +133,37 @@ export const workData = [
     },
     {
         title: 'Restaurant Platform',
-        description: 'Interactive dining website with menu visualization and entertainment features using React.',
+        description: 'Interactive restaurant website built with React, featuring a responsive layout designed for modern dining and dancing experiences.',
         bgImage: assets.work2.src,
         workUrl: "https://babalwa-mbolekwa.github.io/grooveavenue/"
     },
     {
         title: 'YouTube clone',
-        description: 'Demonstrates API integration, search, and responsive video UI using React, Material UI, and the YouTube Data API.',
+        description: 'Video streaming UI built with React and Material UI, integrating the YouTube Data API for search and dynamic video listing.',
         bgImage: assets.work3.src,
         workUrl: "https://babalwayoutubeclone.netlify.app/"
     },
     {
         title: 'Memory Game',
-        description: 'Engaging card-matching game with intuitive UI and moves count using vanilla JavaScript, HTML5, and CSS3.',
+        description: 'Interactive card-matching game built with vanilla JavaScript, featuring game state management and move tracking.',
         bgImage: assets.work4.src,
         workUrl: "https://babalwa-mbolekwa.github.io/memory-game/"
     },
     {
         title: 'Tic Tac Toe Game',
-        description: 'Engaging two-player game for marking spaces with Xs & Os using vanilla JavaScript, HTML5, and CSS3.',
+        description: 'Classic two-player game built with vanilla JavaScript, featuring game state logic, win detection algorithms and responsive design.',
         bgImage: assets.work5.src,
         workUrl: "https://babalwa-mbolekwa.github.io/tic-tac-toe/"
     },
     {
         title: 'Plinko Game',
-        description: 'Responsive and interactive game with animated ball movement using PIXI.js for rendering and Tween.js for smooth animations.',
+        description: 'Physics-based Plinko game built with PIXI.js and Tween.js, featuring animated ball physics, collision detection and smooth rendering.',
         bgImage: assets.work6.src,
         workUrl: "https://plinko-game-v2.netlify.app/"
     },
     {
         title: 'Music player',
-        description: 'Responsive music player with play and pause controls using vanilla JavaScript, HTML, and CSS.',
+        description: 'Custom music player built with vanilla JavaScript, featuring play/pause controls, audio state management, and responsive design.',
         bgImage: assets.work7.src,
         workUrl: "https://babalwa-mbolekwa.github.io/music-player/"
     },
