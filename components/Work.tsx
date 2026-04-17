@@ -100,7 +100,7 @@ const Work = () => {
         className="w-max text-gray-700 border-[0.5px] border-gray-700 rounded-full py-3 px-10 mx-auto hover:bg-[#fcf4ff] duration-500 dark:text-white dark:border-white dark:hover:bg-dark-hover"
       >
         <Link href="/work" className="flex items-center justify-center gap-2">
-          Show more{" "}
+          See more{" "}
           <Image
             src={assets.right_arrow_bold}
             alt="Right arrow"
