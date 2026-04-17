@@ -126,6 +126,12 @@ export const workData = [
         workUrl: "https://babalwambolekwa.netlify.app/"
     },
     {
+        title: 'Babs Bot',
+        description: 'AI-powered chatbot built with vanilla JavaScript, featuring real-time message rendering and OpenAI API integration.',
+        bgImage: assets.work7.src,
+        workUrl: "https://babs-bot.vercel.app/"
+    },
+    {
         title: 'Restaurant Platform',
         description: 'Interactive dining website with menu visualization and entertainment features using React.',
         bgImage: assets.work2.src,
