@@ -54,15 +54,15 @@ const About = () => {
           className="flex-1"
         >
           <p className="mb-10 max-w-2xl font-ovo text-center lg:text-left">
-            I&apos;m a Software Developer with 4+ years of experience building
-            scalable web applications across FinTech, EdTech, and SaaS
-            environments. I focus on solving real user and business problems —
-            whether that&apos;s reducing support load, improving payment flows,
-            or streamlining internal tools. I&apos;ve worked across the full
-            stack, from building responsive frontend interfaces to designing
-            REST APIs and deploying containerised applications on GCP. I value
-            clean, maintainable code, strong collaboration, and taking ownership
-            of features from idea to production.
+            I&apos;m a Frontend Developer with experience building scalable web
+            applications across FinTech, EdTech, Retail and SaaS environments. I
+            focus on solving real user and business problems — whether
+            that&apos;s reducing support load, improving payment flows, or
+            streamlining internal tools. I&apos;ve worked across the full stack,
+            from building responsive frontend interfaces to integrating the
+            frontend with backend services. I value clean, maintainable code,
+            strong collaboration, and taking ownership of features from idea to
+            production.
           </p>
           <ul className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-6">
             {infoList.map(({ icon, title, description }, index) => (
